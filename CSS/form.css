@@ -1,0 +1,199 @@
+body
+{
+    background: url('Images/background banniere.png') no-repeat;
+    background-color: #161a24;
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+
+img 
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;  
+}
+h5{
+    padding-inline: 40px;
+}
+h1, h2, h3, h4, h5
+{
+   text-align: center;
+   color: #388abd;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-shadow: 4px 4px 7px black;
+}
+p, ul
+{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-family: Tahoma, Helvetica, Geneva, Verdana, sans-serif;
+}
+a {
+    color: #ff832a;
+}
+
+a:hover
+{
+    color: #388abd;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+#logo img
+{
+    width: 65px;
+    height: 65px;
+}
+
+/* Footer */
+section
+{
+    margin-top: 2%;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    border-top: 2px solid #303a58;
+    background-color: #22293ffa;
+    width: 100%;
+    height: 215px;
+}
+
+.menu2 li
+{
+
+
+    display: inline-flex; /*Alligner les différents blocs*/
+    margin: 0 10px; /*Marge hauteur et largeur entre les blocs*/
+    font-size: 0.7em;
+    padding: 2px; /*Hauteur des blocs*/
+    text-align: center;
+    list-style: none
+}
+.hype
+{
+    color: #727da1;
+}
+
+form input, form button, textarea
+{
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 1px rgba(130, 130, 130, 0.55);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+
+}
+.flottant
+{
+    
+    margin-top: -19%;
+    margin-left: 120px;
+    margin-right: 50px;
+    width: auto;
+    height: auto;
+}
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+        align-items: flex-end;
+    
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    #banniere_image
+    {
+        display: none;
+    }
+    label
+    {
+        display: none;
+    }
+
+    section
+    {
+        flex-direction: column;
+        border: none;
+        text-align: center;
+        width: auto;
+    }
+    h2
+    {
+        margin-top: 9%;
+        font-size: 1.1em;
+        text-align: center;
+
+    }
+    #bouton_retour
+    {
+        margin-left:-85%;
+    }
+    #logo img
+    {
+       width: 100px;
+       height: 100px;
+       margin-top: -10%;
+    }
+    footer
+    {
+       height: auto;
+    }
+    .menu2 li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 50px 0px 10px; /*Marge hauteur et largeur entre les blocs*/
+    }
+    .flottant
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+    }
+    h5{
+        font-size: 12px;
+    }
+
+}
