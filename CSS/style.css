@@ -45,13 +45,16 @@ i{
 h5{
     margin-top: 69px;
     margin-bottom: 0;
+    text-align: center;
+   color: #388abd;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h4, h5
+h4
 {
    text-align: center;
    color: #388abd;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-shadow: 5px 5px 15px black;
+   text-shadow: 5px 5px 12px rgb(20, 20, 20);
    
 }
 h2
@@ -73,7 +76,7 @@ h3
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
    text-decoration: underline;
 }
-p, ul, ol, table
+p, cite, ul, ol, table
 {
    text-align: center;
    color: rgb(189, 200, 207);
