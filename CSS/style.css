@@ -42,7 +42,8 @@ i{
     color: #388abd;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h5{
+.h5{
+    font-size: 18px;
     margin-top: 69px;
     margin-bottom: 0;
     text-align: center;
@@ -410,6 +411,7 @@ table{
 {
     text-align: left;
     margin-inline: 40px;
+    color: #388abd;
 
 }
 
@@ -524,7 +526,7 @@ table{
     td{
         width: 18%;
     }
-    h5{
+    .h5{
         font-size: 14px;
     }
     .tableau{ /* menu non visible en version mobile*/
