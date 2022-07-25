@@ -1,16 +1,16 @@
 body
 {
-    background: url("../Images/background_banniere.png") no-repeat;
+    background: url("../Images/background_banniere.webp") no-repeat;
     background-color: #161a24;
     font-size: 1.2em;
     margin: 0 auto;
-    width: 100%; 
+    width: 100%;
 }
 h2{
     font-style: italic;
 }
 .h5{
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 0;
     font-size: 18px;
     
@@ -87,11 +87,15 @@ section
 {
     margin-top: 2%;
 }
+.relative{
+    position: relative;
+}
 footer{
+    bottom:0;
     width: 100%;
-    height: 100%;
-
-    
+    height: 206px;
+    position: absolute;
+ 
 }
 .end{
     display: flex;
@@ -135,10 +139,12 @@ form input, form button, textarea
     font-size: 1.1em;
 
 }
+
 .flottant
 {
     position: absolute;
     margin-left: 60px;
+    margin-top: 60px;
     width: auto;
     height: auto;
 }
@@ -170,6 +176,10 @@ form input, form button, textarea
         border: none;
         text-align: center;
         width: auto;
+    }
+    footer{
+        height: 100%;
+        position: static;
     }
     h2
     {  

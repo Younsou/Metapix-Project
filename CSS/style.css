@@ -161,6 +161,12 @@ a:focus
 {
     background-color: transparent;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /**
@@ -240,8 +246,7 @@ label #close {
     cursor: pointer;
 }
 #menu-toggle:not(:checked) + label:hover {
-    box-shadow: rgba(0, 0, 0, 0.0784314) 0px 0px 12px 0px, 
-                rgba(0, 0, 0, 0.239216) 0px 12px 12px 0px;
+    box-shadow: #ff832a 0px 0px 12px 4px;
 }
 
 #menu {
