@@ -43,8 +43,8 @@ i{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .h5{
-    font-size: 18px;
-    margin-top: 69px;
+    font-size: 16px;
+    margin-top: 45px;
     margin-bottom: 0;
     text-align: center;
    color: #388abd;
@@ -331,6 +331,7 @@ header
     flex-direction: row;
     align-items: baseline;
     position: absolute;
+    z-index: 400;
     top: 1.2%;
     left: 2%;
 }
@@ -383,18 +384,23 @@ footer
 {
     position: relative;
     border-top: 2px solid #303a58;
+    padding-top: 20px;
     background-color: #22293ffa;
+    z-index: 0;
+    width: 100%;
+
 }
 
+.menu2
+{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
 .menu2 li
 {
-
-    position: relative;
-    display: inline-flex; /*Alligner les différents blocs*/
-    margin: 0 10px; /*Marge hauteur et largeur entre les blocs*/
-    font-size: 0.7em;
-    padding: 2px; /*Hauteur des blocs*/
-    text-align: center;
+    margin: 10px 20px; /*Marge hauteur et largeur entre les blocs*/
+    font-size: 0.8em;
 }
 td
 {
@@ -410,6 +416,7 @@ table{
 }
 .tableau, .tableau2
 {
+    margin: 0;
     list-style: none;
 }
 .fondation-list
@@ -543,5 +550,11 @@ table{
 {   
     .displayed { /* tableau non visible en version mobile*/
         display: none;
+    }
+
+    .menu2 li{
+
+        margin: 20px 20px; /*Marge hauteur et largeur entre les blocs*/
+        padding-bottom: 10px;
     }
 }
