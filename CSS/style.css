@@ -105,6 +105,17 @@
      margin-right: 2%;
  }
 
+ a,
+ i {
+     color: #ff832a;
+     transition: 0.3s;
+ }
+
+ a:hover,
+ i:hover {
+     color: #388abd;
+ }
+
  .introduction
 
  /* placement different de la liste à puce de l'introduction */
@@ -112,7 +123,6 @@
      position: relative;
      text-align: left;
      margin-left: 37%;
-
  }
 
  em {
@@ -167,18 +177,6 @@
      color: #388abd;
  }
 
- a:hover {
-     color: #388abd;
- }
-
- a:active {
-     color: white;
- }
-
- a:focus {
-     background-color: transparent;
- }
-
  .container {
      display: flex;
      flex-direction: column;
@@ -221,13 +219,14 @@
 
  }
 
- a {
+ .tableau a {
      color: #ff832a;
+     transition: none;
  }
 
- a:active,
- a:focus {
-     color: #ff832a;
+ .tableau a:hover,
+ .tableau a:focus {
+     color: #388abd;
      font-weight: bold;
  }
 
@@ -449,6 +448,8 @@
      width: 95%;
      margin-left: auto;
      margin-right: auto;
+     margin-top: 20px;
+     margin-bottom: 35px;
  }
 
  .tableau,
@@ -459,13 +460,18 @@
 
  .fondation-list {
      text-align: left;
-     margin-inline: 40px;
+     margin-inline: 10%;
      color: #388abd;
 
  }
 
 
  /*****************\ ♦ Responsive design ♦ \*****************/
+ @media (max-width: 1000px) {
+     .displayed_tr {
+         display: none;
+     }
+ }
 
  @media all and (max-width: 768px) {
      body {
