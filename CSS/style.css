@@ -186,14 +186,6 @@
      align-items: center;
  }
 
- h1:hover {
-     color: #388abd;
- }
-
- h2:hover {
-     color: #388abd;
- }
-
  .container {
      display: flex;
      flex-direction: column;
@@ -254,7 +246,8 @@
 
  i:hover {
      font-size: 30px;
-     color: #388abd;
+     color: #46bbff;
+     filter: drop-shadow(0 0 0.75rem rgb(43, 195, 255));
  }
 
  label,
@@ -555,7 +548,6 @@
 
      h1 {
          padding-top: 70px;
-         color: #388abd;
      }
 
      h2 {
@@ -578,7 +570,7 @@
          display: flex;
          flex-wrap: wrap;
          gap: 50px;
-         justify-content: space-between;
+         justify-content: space-evenly;
          margin: 10px 0 0 0;
          padding: 30px;
 
@@ -668,4 +660,15 @@
          /*Marge hauteur et largeur entre les blocs*/
          padding-bottom: 10px;
      }
+
+     h2 {
+         margin-left: 0px;
+         text-align: center;
+     }
+
+     h1 {
+         margin: 0 0 60px 0;
+         text-align: center;
+     }
+
  }
