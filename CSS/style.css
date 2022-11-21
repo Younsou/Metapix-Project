@@ -160,6 +160,8 @@
      width: 40%;
      height: auto;
      margin-left: 20px;
+     min-height: 390px;
+     min-width: 270px;
  }
 
  .matrix-img {
@@ -645,6 +647,13 @@
 
      .arrow:hover {
          opacity: 100%;
+     }
+
+     .flottant2 {
+         float: none;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
      }
  }
 
