@@ -47,11 +47,10 @@
 
  h1 {
      text-align: center;
-     background: -webkit-linear-gradient(#ffffff 10%, #ff832a 60%);
+     background: -webkit-linear-gradient(#ffffff 10%, #fd8700 60%);
      background-clip: text;
      -webkit-background-clip: text;
-     color: transparent;
-     /*color: #ff832a;*/
+     color: #ff81269c;
      font-family: 'Oswald', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
      font-size: 50px;
@@ -72,7 +71,7 @@
      margin-top: 45px;
      margin-bottom: 0;
      text-align: center;
-     color: #388abd;
+     color: #537a9e;
      font-family: 'Rubik', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
@@ -86,10 +85,10 @@
 
  h2 {
      text-align: start;
-     background: -webkit-linear-gradient(#fff1e8 10%, #ff832a 60%);
+     background: -webkit-linear-gradient(#ffffff 10%, #fd8700 80%);
      background-clip: text;
      -webkit-background-clip: text;
-     color: transparent;
+     color: #ff81269c;
      font-family: 'Oswald', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 50px;
      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
@@ -471,8 +470,8 @@
  table {
      border-collapse: collapse;
      width: 95%;
-     margin-left: auto;
-     margin-right: auto;
+     margin-left: 0;
+     margin-right: 0;
      margin-top: 20px;
      margin-bottom: 35px;
  }
@@ -486,7 +485,7 @@
  .fondation-list {
      text-align: left;
      margin-inline: 10%;
-     color: #388abd;
+     color: #537a9e;
 
  }
 
@@ -524,7 +523,9 @@
          display: flex;
          justify-content: center;
          flex-wrap: wrap;
-         width: 100%;
+         min-width: 100%;
+         margin-left: -80px;
+         margin-right: -110px;
      }
 
      .fondation-list {
