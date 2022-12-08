@@ -244,12 +244,11 @@
 
  .tableau2 a {
      color: #537a9e;
-     transition: none;
+     transition: 0.3s;
  }
 
  .tableau2 a:hover {
      color: #ff832a;
-     transition: none;
  }
 
  .tableau a:hover,
