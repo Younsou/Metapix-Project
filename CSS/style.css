@@ -69,9 +69,9 @@
  }
 
  .h5 {
-     font-size: 16px;
-     margin-top: 45px;
-     margin-bottom: 0;
+     font-size: 18px;
+     margin-top: 20px;
+     margin-bottom: 16px;
      text-align: center;
      color: #537a9e;
      font-family: 'Rubik', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -242,6 +242,16 @@
      transition: none;
  }
 
+ .tableau2 a {
+     color: #537a9e;
+     transition: none;
+ }
+
+ .tableau2 a:hover {
+     color: #ff832a;
+     transition: none;
+ }
+
  .tableau a:hover,
  .tableau a:focus {
      color: #388abd;
@@ -397,6 +407,15 @@
  #logo img {
      width: 65px;
      height: 65px;
+ }
+
+ .logo_footer {
+     margin-top: 50px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 300px;
+     height: 56.81px;
  }
 
  #logo2 img,
@@ -647,6 +666,12 @@
          width: 95px;
          height: 95px;
 
+     }
+
+     .logo_footer {
+         margin-top: 62px;
+         width: 165px;
+         height: 31.25px;
      }
 
      .arrow {
