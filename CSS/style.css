@@ -9,6 +9,7 @@
      font-size: 1.2em;
      margin: 0 auto;
      width: 100%;
+     margin-inline: 0%;
  }
 
  img {
@@ -57,6 +58,7 @@
      padding: 8px;
      border-radius: 25px;
      width: 100%;
+     margin-bottom: 0;
 
  }
 
@@ -143,31 +145,28 @@
  }
 
  .flottant {
-     float: right;
      width: auto;
      height: auto;
-     margin-block: 50px;
+     margin-block: 30px;
  }
 
  .flottant1 {
-     float: right;
      width: auto;
      height: auto;
-     margin-top: 50px;
+     margin-top: 30px;
  }
 
  .flottant3 {
-     float: left;
      width: auto;
      height: auto;
-     margin-top: 50px;
+     margin-top: 30px;
  }
 
  .flottant2 {
-     float: right;
      width: 40%;
      height: auto;
      margin-left: 20px;
+     margin-bottom: 15px;
      min-height: 390px;
      min-width: 270px;
  }
@@ -414,7 +413,7 @@
      flex-direction: row-reverse;
      position: fixed;
      bottom: 2%;
-     left: 95.5%;
+     right: 20px;
  }
 
  /* Navigation */
@@ -469,7 +468,7 @@
 
  table {
      border-collapse: collapse;
-     width: 95%;
+     width: 100%;
      margin-left: 0;
      margin-right: 0;
      margin-top: 20px;
@@ -523,9 +522,7 @@
          display: flex;
          justify-content: center;
          flex-wrap: wrap;
-         min-width: 100%;
-         margin-left: -80px;
-         margin-right: -110px;
+         width: 100%;
      }
 
      .fondation-list {
@@ -585,17 +582,19 @@
          justify-content: space-evenly;
          margin: 10px 0 0 0;
          padding: 30px;
-
      }
 
      nav li {
          margin: 0;
          padding: 0;
-
      }
 
      nav a {
          font-size: 1.1em;
+     }
+
+     nav i {
+         color: #ffffff;
      }
 
      #banniere_image {
@@ -632,7 +631,8 @@
      }
 
      #bouton_retour {
-         margin-left: -85%;
+         right: 42.5%;
+         bottom: -27px;
      }
 
      #logo {
@@ -664,6 +664,11 @@
          display: block;
          margin-left: auto;
          margin-right: auto;
+     }
+
+     .flottant1,
+     .flottant3 {
+         margin-top: 15px;
      }
  }
 
